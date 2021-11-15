@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687672775829",
+    "project_id": "ivanclase",
+    "storage_bucket": "ivanclase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687672775829:android:8ee083ca820ff36d21f79c",
+        "android_client_info": {
+          "package_name": "cat.copernic.msabatem.ivanclase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687672775829-70moo65s4iphd9dqvhh9otj43t8h0r8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO6ShI4ZpXgBwOhLPjzOVdK7lQtYCDqto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687672775829-70moo65s4iphd9dqvhh9otj43t8h0r8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
