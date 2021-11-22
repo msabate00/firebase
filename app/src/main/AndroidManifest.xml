@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IvanClase">
         <activity
+            android:name=".StorageFB"
+            android:exported="false" />
+        <activity
+            android:name=".Rtdatabase"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

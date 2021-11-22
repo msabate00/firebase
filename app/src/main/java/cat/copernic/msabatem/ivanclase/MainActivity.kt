@@ -1,5 +1,6 @@
 package cat.copernic.msabatem.ivanclase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var etPassword: EditText
     private lateinit var btAlta: Button
     private lateinit var btsalir: Button
+    private lateinit var btRtDatabase: Button;
+    private lateinit var btStorageFB: Button;
+
     // [END declare_auth]
 
 
@@ -41,6 +45,9 @@ class MainActivity : AppCompatActivity() {
         etPassword = findViewById(R.id.etPass);
         btAlta = findViewById(R.id.btAlta)
         btsalir = findViewById(R.id.salir)
+        btRtDatabase = findViewById(R.id.btRtDatabase);
+        btStorageFB = findViewById(R.id.btnStorageFB);
+
 
         btAutentifica.setOnClickListener {
 
@@ -58,6 +65,15 @@ class MainActivity : AppCompatActivity() {
             auth.signOut();
             reload();
 
+        }
+
+        btRtDatabase.setOnClickListener {
+            val intent = Intent(this, Rtdatabase::class.java);
+            startActivity(intent);
+        }
+        btStorageFB.setOnClickListener {
+            val intent = Intent(this, StorageFB::class.java);
+            startActivity(intent);
         }
 
 
